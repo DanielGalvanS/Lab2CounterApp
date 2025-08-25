@@ -1,16 +1,10 @@
-import { useState } from 'react'
-import {HolaMundo} from './components/HolaMundo.jsx'
-import {Variables} from './components/Variables.jsx'
-import {ArchivoImportacion} from './components/ArchivoImportacion.jsx'
+import { CounterApp } from './components/CounterApp'
 import './App.css'
 
 function App() {
-
   return (
     <>
-      <HolaMundo/>
-      <Variables/>
-      <ArchivoImportacion/>
+    <CounterApp value = {0}></CounterApp>
     </>
   )
 }
